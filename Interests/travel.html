@@ -1,39 +1,146 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>Travel</title>
-        <link rel="stylesheet" href="../mystylesheet.css" type="text/css"/>
-         <link rel="stylesheet" href="int_pages.css" type="text/css"/>
-        
-        <!--Page Piling-->
-       <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
-       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
-       
-       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
-        <script type= "text/javascript">
-            $(document).ready(function() {
-	$('#pagepiling').pagepiling();
-    });
-    </script>
-        
-    </head>
-    <body>
-        
-      <div id="pagepiling">
-	<div class="section" id="section1">Most travelled to: Spain </div>
-	<div class="section" id="section2">Also visited: America</div>
-	<div class="section" id="section3">
-	    Settle in: Ireland
-	    <br/>
-	    <a href="../Homepage.html" class="btn btn-success">Home</a>
-	</div>
+  <head>
+    <style>
+div.gallery {
+    border: 1px solid #ccc;
+}
 
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+  </head>
+<title>Travel</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-center" style="max-width:1500px">
+  <img class="w3-image" src="https://pbs.twimg.com/media/DVYAOCrW0AAmomu.jpg" alt="Me" width="1500" height="600">
+  <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
+    <h1 class="w3-hide-medium w3-hide-small w3-xxxlarge">My Travels</h1>
+    <h5 class="w3-hide-large" style="white-space:nowrap">My Travels</h5>
+  </div>
+  
+  <!-- Navbar (placed at the bottom of the header image) -->
+  <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
+    <a href="Homepage.html" class="w3-bar-item w3-button">Home</a>
+    <a href="sports.html" class="w3-bar-item w3-button">Sport</a>
+    <a href="achievements.html" class="w3-bar-item w3-button">Achievements</a>
+  </div>
+</header>
+
+<!-- Navbar on small screens -->
+<div class="w3-center w3-light-grey w3-padding-16 w3-hide-large w3-hide-medium">
+<div class="w3-bar w3-light-grey">
+  <a href="Homepage.html" class="w3-bar-item w3-button">Home</a>
+  <a href="sports.html" class="w3-bar-item w3-button">Sport</a>
+  <a href="achievements.html" class="w3-bar-item w3-button">Achievements</a>
 </div>
-      
-    </body>
+</div>
+
+<!-- Page content -->
+
+<br />
+
+<p align="center">
+  I've been on many holidays both with my siblings and without, with friends and with extended family.
+Among these include visits to many different continents. America, Europe(of course) and 
+Asia being the most dominant.
+</p>
+
+<h3 align="center"> Family Holidays</h3>
+
+<p align="center">
+  Family holidays include:
+</p>
+
+
+<p align="center">France</p>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://www.eutouring.com/eiffel_tower_m13_DSC05405_lrg.JPG">
+      <img src="http://www.eutouring.com/eiffel_tower_m13_DSC05405_lrg.JPG" alt="Eiffel Tower" width="200" height="200">
+    </a>
+    <div class="desc">Eiffel Tower</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://booking.parisinfo.com/InfoliveImages/culture_et_loisirs/monuments/arc_de_triomphe/arc_de_triomphe_touristes.jpg?mode=crop&width=640&height=412&scale=both">
+      <img src="https://booking.parisinfo.com/InfoliveImages/culture_et_loisirs/monuments/arc_de_triomphe/arc_de_triomphe_touristes.jpg?mode=crop&width=640&height=412&scale=both" alt="Arc Du Triomphe" width="200" height="200">
+    </a>
+    <div class="desc">Arc Du Triomphe</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="http://www.culturaltravelguide.com/wp-content/uploads/2012/06/tourist-attraction-louvre.jpg">
+      <img src="http://www.culturaltravelguide.com/wp-content/uploads/2012/06/tourist-attraction-louvre.jpg" alt="Louvre" width="200" height="200">
+    </a>
+    <div class="desc">Louvre</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="https://i2-prod.mirror.co.uk/incoming/article4864063.ece/ALTERNATES/s615/Disneyland.jpg">
+      <img src="https://i2-prod.mirror.co.uk/incoming/article4864063.ece/ALTERNATES/s615/Disneyland.jpg" alt="DisneyLand" width="200" height="200">
+    </a>
+    <div class="desc">DisneyLand</div>
+  </div>
+</div>
+
+<br />
+<br />
+<br />
+
+
+
+</body>
 </html>
