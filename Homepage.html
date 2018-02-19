@@ -1,80 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>CSS Template</title>
+<title>Homepage</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+
 * {
     box-sizing: border-box;
 }
 
 body {
+    background-color:#D4F7EC;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Style the header */
-.header {
-    background-color: #f1f1f1;
-    padding: 30px;
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
     text-align: center;
-    font-size: 35px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+
 }
 
-/* Create three equal columns that floats next to each other */
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-}
+.button1 {padding: 14px 40px;}
+.button2 {padding: 14px 40px;}
+.button3 {padding: 14px 40px;}
+.button4 {padding: 14px 40px;}
+.button5 {padding: 14px 40px;}
 
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-/* Style the footer */
-.footer {
-    background-color: #f1f1f1;
-    padding: 10px;
-    text-align: center;
-}
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-    .column {
-        width: 100%;
-    }
-}
 </style>
 </head>
 <body>
 
-<h2 align="center">IS1113 117382796</h2>
+<h2 align="center" style="background-color:rgb(255, 99, 71)">IS1113 117382796</h2>
 
-<div class="row">
-  <div class="row" style="background-color:#aaa;" align="center"> <a href="CV Folder/cv_page1.html">Curriculum Vitae</a></div>
-  
-  <br />
-  
-  <div class="row" style="background-color:#bbb;" align="center"> <a href="Interests/sports.html">Interests</a></div>
-  
-  <br />
-  
-  <div class="row" style="background-color:#ccc;" align="center"><a href="ebusiness/Ebus1.php">Ebus</a></div>
-  
-  <br />
-  
-  <div class="row" style="background-color:#aaa;" align="center"> <a href="https://github.com/cianodonovan98/is117382796/graphs/commit-activity">GitHub</a></div>
-  
-  <br />
-  
-  <div class="row" style="background-color:#aaa;" align="center">  <a href="Cloud_Services_Vendor.html">Cloud Services Vendor</a></div>
-</div>
+<p align="center">
+    
+<button class="button button1" href="CV Folder/cv_page1.html">Cirriculum Vitae</button> <br />
+<button class="button button2" href="Interests/sports.html">Interests</button> <br />
+<button class="button button3" href="ebusiness/Ebus1.php">E-Business</button> <br />
+<button class="button button4" href="Interests/Cloud_Services_Vendor.html">Cloud Services Vendor</button> <br />
+<button class="button button5" href="https://github.com/cianodonovan98/is117382796/graphs/commit-activity">GitHub</button> <br />
 
-
+</p>
 
 </body>
+
 </html>
