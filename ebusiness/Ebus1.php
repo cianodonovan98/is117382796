@@ -21,13 +21,15 @@
                 Salesforce @ $100
             </label>
             
-              <br/>
+              <br />
+              <br />
             
             <label for "aws">
                 <input type="radio" id="aws" name="product" onClick="disablebtnProceed()"/>
                 Amazon Web Services @ $300
             </label>
             
+            <br />
             <br />
             
              
@@ -36,6 +38,7 @@
                 Cloud 9 @ $200
             </label>
             
+            <br />
             <br />
             
              
@@ -52,19 +55,39 @@
                 <input type="text" id="Subtotal" value="0.00" readonly/>
             </label>
             
-             <br/>
+            <br />
+            <br />
+            
+            <label for="Discount">
+                Discount(5%)
+                <input type="text" id="Discount" value="0.00" readonly/>
+            </label>
+            
+            <br />
+            <br />
+            
+            <label for="VAT">
+                VAT(10%)
+                <input type="text" id="VAT" value="0.00" readonly/>
+            </label>
+            
+             <br />
+             <br />
             
             <label for="Total">
                 Total
-                <input type="hidden" id="Total" name="Total" value="0.00" readonly/>
+                <input type="text" id="Total" name="Total" value="0.00" readonly/>
             </label>
             
-              <br/>
+              <br />
+              <br />
+              
             
             <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         </form>
         
-        <br/>
+        <br />
+        <br />
         
         <button onClick="calcSub()">Calculate Cost</button>
         <a role="button" href="Ebus1.php">Clear Choice</a>

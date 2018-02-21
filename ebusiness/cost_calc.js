@@ -11,7 +11,7 @@ function calcSub(){
         argSubTotal = 300;
     }
      else if (document.getElementById("cloud9").checked) {
-        argSubTotal = 200;
+        argSubTotal = 200; 
      }
      
      else if (document.getElementById("gmail").checked) {
@@ -38,3 +38,4 @@ function enablebtnProceed(){
 function disablebtnProceed(){
     $('#btnProceed').prop('disabled', true);
 }
+
