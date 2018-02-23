@@ -6,7 +6,7 @@ session_start()
     <head>
         <title>RECEIPT</title>
     </head>
-    <body>
+    <body align="center">
         <h4>RECEIPT</h4>
         
         <?php
