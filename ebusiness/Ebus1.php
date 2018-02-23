@@ -8,7 +8,7 @@
     
     </head>
     
-    <body>
+    <body align="center">
         
         <h4>Select Product</h4>
         

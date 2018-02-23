@@ -14,7 +14,7 @@ session_start();
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     
-    <body>
+    <body align="center">
         
         <h4>Please enter your payment details.</h4>
         
