@@ -15,7 +15,29 @@ function validateDetails(){
     else{
         enablebtnPurchase();
         }
-}
+        
+        var name;
+        
+        name=document.getElementById("name").value;
+        
+        if(name==""){
+            alert("Please enter your name");
+        }
+        else{
+            enablebtnPurchase();
+        }
+        
+        var email;
+        
+        email = document.getElementById("email").value;
+        
+        if(email==""){
+            alert("Please enter your email");
+        }
+            else{
+                enablebtnPurchase();
+            }
+        }
 
 function enablebtnPurchase(){
      $('#btnPurchase').prop('disabled',false);
