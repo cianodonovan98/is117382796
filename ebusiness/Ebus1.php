@@ -52,7 +52,7 @@
             
             <label for="SubTotal">
                 Sub Total
-                <input type="text" id="SubTotal" value="0.00" readonly/>
+                <input type="text" id="SubTotal" name="SubTotal" value="0.00" readonly/>
             </label>
             
             <br />
@@ -60,7 +60,7 @@
             
             <label for="Discount">
                 Discount(5%)
-                <input type="text" id="Discount" value="0.00" readonly/>
+                <input type="text" id="Discount" name="Discount" value="0.00" readonly/>
             </label>
             
             <br />
@@ -68,7 +68,7 @@
             
             <label for="VAT">
                 VAT(10%)
-                <input type="text" id="VAT" value="0.00" readonly/>
+                <input type="text" id="VAT" name="VAT" value="0.00" readonly/>
             </label>
             
              <br />

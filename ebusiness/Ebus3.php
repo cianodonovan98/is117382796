@@ -9,6 +9,9 @@ session_start()
         <style>
             p{  font-size: 20px;
             }
+            
+            body{ font-size: 20px;
+            }
         </style>
         
         <title>RECEIPT</title>
@@ -25,7 +28,14 @@ session_start()
        
        echo "Email: " . $_POST["email"] . "<br /> <br />";
        
-       echo "Total is €" . $_SESSION["Total"] . ".<br /> <br />";
+       echo "SubTotal: " . $_SESSION["SubTotal"] . " Euro.<br /> <br />";
+        
+       echo "Discount: " . $_SESSION["Discount"] . " Euro.<br /> <br />";
+       
+       echo "VAT: " . $_SESSION["VAT"] . " Euro.<br /> <br />";
+       
+       echo "Total: " . $_SESSION["Total"] . " Euro.<br /> <br />";
+       
        ?>
        
        <br />
