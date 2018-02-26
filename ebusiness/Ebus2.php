@@ -27,7 +27,7 @@ session_start();
                     Enter Full Name:
                 </label>
                 
-                <input type="text" id="name">
+                <input type="text" id="name" name="name">
                 
                 <br />
                 <br />
@@ -36,7 +36,7 @@ session_start();
                     E-Mail:
                 </label>
                 
-                <input type="text" id="email">
+                <input type="text" id="email" name="email">
                 
                 <br />
                 <br />
@@ -64,7 +64,11 @@ session_start();
         
         <?php
         // Set session variables
+        
         $_SESSION["Total"] = $_POST["Total"];
+        
+        $_SESSION["name"] = $_POST["name"];
+        $_SESSION["email"] = $_POST["email"]
         ?>
         
         

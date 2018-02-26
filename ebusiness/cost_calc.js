@@ -18,13 +18,28 @@ function calcSub(parm1){
         argSubTotal = 400;
      }
     
-    display(argSubTotal);
+    calcDisVatTotal(argSubTotal);
 }
 
-function display(parm1){
+function calcDisVatTotal(parmSubTotal){
+    var SubTotal = parmSubTotal;
+    var VatAmt;
+    var DiscountAmt;
+    var TotalPrice;
     
-    document.getElementById("Subtotal").value = parm1;
-    document.getElementById("Total").value = parm1;
+    DiscountAmt = (parmSubTotal * 0.05);
+    VatAmt = (parmSubTotal - DiscountAmt) * (0.10);
+    TotalPrice = (parmSubTotal + VatAmt - DiscountAmt);
+    
+ display(SubTotal , VatAmt , DiscountAmt , TotalPrice);
+}
+
+function display(parm1 , parm2 , parm3 , parm4 ){
+    
+    document.getElementById("SubTotal").value = parm1;
+    document.getElementById("VAT").value = parm2;
+    document.getElementById("Discount").value = parm3;
+    document.getElementById("Total").value = parm4;
     
     enablebtnProceed();
 }
