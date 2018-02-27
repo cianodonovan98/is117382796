@@ -9,6 +9,14 @@ session_start();
     
     <head>
         
+        <style>
+            
+            body{
+                text-align:center;
+            }
+            
+        </style>
+        
         <title> Enter Details</title>
         
         
@@ -19,7 +27,7 @@ session_start();
     
     <!-- Aligning body in the center -->
     
-    <body align="center">
+    <body>
         
         <h4>Please enter your payment details.</h4>
         

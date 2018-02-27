@@ -18,6 +18,7 @@ session_start()
             
             body{ 
                 
+                text-align:center;
                 font-size: 20px;
             }
             
@@ -27,7 +28,7 @@ session_start()
         
     </head>
     
-    <body align="center">
+    <body>
         
         <h4>RECEIPT</h4>
         

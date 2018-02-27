@@ -1,8 +1,18 @@
+<!DOCTYPE html>
+
 <html>
     
     <head>
         
         <title>Select Product</title>
+        
+        <style>
+            
+            body{
+                text-align:center;
+            }
+            
+        </style>
         
         <!--jQuery-->
         
@@ -14,7 +24,7 @@
     
     <!-- Aligning body in the center -->
     
-    <body align="center">
+    <body>
         
         <h4>Select Product</h4>
         
