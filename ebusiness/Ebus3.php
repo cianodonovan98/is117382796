@@ -1,20 +1,30 @@
 <?php
 session_start()
 ?>
+
 <!DOCTYPE html>
+
 <html>
     
     <head>
         
         <style>
-            p{  font-size: 20px;
+        
+            p{ 
+                
+                font-size: 20px;
+            
             }
             
-            body{ font-size: 20px;
+            body{ 
+                
+                font-size: 20px;
             }
+            
         </style>
         
         <title>RECEIPT</title>
+        
     </head>
     
     <body align="center">
@@ -43,6 +53,8 @@ session_start()
        <br />
        
        <p>Thank You For Ordering with Our Cloud Services Vendor Webpage</p>
+       
+        <button><a href="../Homepage.html" class="btn btn-success">Home</a></button>
         
     </body>
 </html>
